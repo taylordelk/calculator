@@ -1,0 +1,117 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 800px;
+    flex-wrap: wrap;
+    background-color: lightseagreen;
+}
+.leftsidenums{
+    display: flex;
+    
+}
+
+.buttonbox{
+    display: flex;
+
+}
+.num{
+    display: flex;
+    width:150px;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    font-size: 24px;
+    font-weight: bold;
+    border: black solid 1px;
+    margin: -1px;
+
+}
+
+.num:hover{
+    cursor: pointer;
+}
+.nums{
+    display:flex;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+    background-color: lightcoral;
+}
+.display{
+    width: 500px;
+    height: 150px;
+    background-color: grey;
+    margin: 15px;
+    font-size: 45px;
+    font-weight: bold;
+    text-align:right;
+    overflow-wrap: break-word;
+}
+
+.ops{
+    height:100px;
+    width:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    font-size: 24px;
+    font-weight: bold;
+    border: black solid 1px;
+    margin: -1px;
+}
+.clear{
+    height:100px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black solid 2px;
+    align-self: flex-start;
+    background-color: rgb(216, 210, 250);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign{
+    display: flex;
+    width:150px;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    font-size: 24px;
+    font-weight: bold;
+    border: black solid 1px;
+    margin: -1px;
+}
+
+.decimal{
+    display: flex;
+    width:150px;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    font-size: 24px;
+    font-weight: bold;
+    border: black solid 1px;
+    margin: -1px;
+}
+
+.equals{
+    height:100px;
+    width:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    font-size: 24px;
+    font-weight: bold;
+    border: black solid 1px;
+    margin: -1px;
+}
